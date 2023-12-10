@@ -1,0 +1,39 @@
+{
+  "name": "chatnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitaliymv/chatNodeJs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "chat",
+    "mysql",
+    "cipher"
+  ],
+  "author": "Vitalii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitaliymv/chatNodeJs/issues"
+  },
+  "homepage": "https://github.com/vitaliymv/chatNodeJs#readme",
+  "dependencies": {
+    "cookie": "^0.6.0",
+    "crypto": "^1.0.1",
+    "socket.io": "^4.7.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
